@@ -6,6 +6,6 @@ public class TokenGeneratorService {
     public static void main(String[] args) {
         SecureRandom random = new SecureRandom();
         int randomNo = random.nextInt(100);
-        System.out.println("random no : " + randomNo);
+        System.out.println("random no is : " + randomNo);
     }
 }
